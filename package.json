@@ -1,0 +1,22 @@
+{
+  "name": "featurebot",
+  "version": "1.0.0",
+  "description": "featureBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meshstyles/featureBot.git"
+  },
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meshstyles/featureBot/issues"
+  },
+  "homepage": "https://github.com/meshstyles/featureBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

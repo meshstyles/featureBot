@@ -86,3 +86,11 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+#private data
+botconfig.json
+botconfig_demo.json
+tokens.md
+x*.json
+*.dlogger
+log.*s

@@ -1,24 +1,26 @@
 {
-  "name": "featurebot",
-  "version": "1.0.0",
-  "description": "bot with various features",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "node index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meshstyles/featureBot.git"
-  },
-  "keywords": [
-    "discord"
-  ],
-  "author": "max",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/meshstyles/featureBot/issues"
-  },
-  "homepage": "https://github.com/meshstyles/featureBot#readme"
+    "name": "featurebot",
+    "version": "1.0.0",
+    "description": "bot with various features",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "node index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meshstyles/featureBot.git"
+    },
+    "keywords": [
+        "discord"
+    ],
+    "author": "max",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/meshstyles/featureBot/issues"
+    },
+    "homepage": "https://github.com/meshstyles/featureBot#readme",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
 }

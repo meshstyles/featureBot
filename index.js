@@ -32,7 +32,7 @@ bot.on("message", async message => {
 
 async function channelcleaner(message) {
     var rmList = await message.channel.fetchMessages();
-    message.channel.bulkDelete(rmList);
+    message.channel.bulkDelete(rmList).catch();
 }
 
 //login bot into to discord api with auth token
